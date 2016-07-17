@@ -1,0 +1,246 @@
+body {
+    padding-top: 38px;
+    height: 1060px;
+    font-family: Tahoma, Arial, sans-serif;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background-color: #fff;
+    height: 1025px;
+    margin-left: 140px;
+    max-width: 1000px;
+    box-shadow: 0px 4px 15px 1px rgba(0,0,0,0.75);
+}
+
+header {
+    border-bottom: 1px solid #128aa7;
+    height: 175px;
+}
+
+.logo {
+    padding: 5px 0 0 28px;
+    float: left;
+    background-color: #fff;
+}
+
+.right_header {
+    float: right;
+    height: 175px;
+    padding-right: 22px;
+}
+
+.contacts {
+    padding:6px 0 0 195px;
+}
+
+.contacts h4 {
+    font-weight: bold;
+    color: #128aa7;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.contacts p {
+    color: #128aa7;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.countries {
+    padding-top: 37px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+.countries ul li {
+    display: inline-block;
+}
+
+.countries a {
+    color: #128aa7;
+    font-size: 10px;
+    display: inline-block;
+}
+
+.india {
+    padding: 45px 15px 10px 7px;
+    background: url("../img/india.png") no-repeat;
+}
+
+.nepal {
+    padding: 45px 15px 8px 7px;
+    background: url("../img/nepal.png") no-repeat;
+}
+
+.tibet{
+    padding: 45px 15px 8px 7px;
+    background: url("../img/tibet.png") no-repeat;
+}
+
+.bhutan {
+    padding: 45px 9px 10px 8px;
+    background: url("../img/bhutan.png") no-repeat;
+}
+
+.sri_lanka {
+    padding: 45px 6px 8px 0px;
+    background: url("../img/shri_lanka.png") no-repeat;
+    background-position-x: 7px;
+}
+
+.maldives {
+    padding: 45px 15px 8px 0px;
+    background: url("../img/maldives.png") no-repeat;
+
+}
+.photo{
+    border-bottom: 1px solid #128aa7;
+    height: 236px;
+}
+.menu {
+    background: #373737;
+    background: linear-gradient(to top, #373737, #313131);
+    height: 28px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.80);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.80);
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu li:hover {
+    background-color: none;
+
+}
+ul.menu > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 60px;
+    padding: 5px 0 5px 0;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+ul.menu > li > a:hover {
+    color: #c1c1c1;
+}
+ul.drop_menu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 29px;
+    left: 50px;
+    background-color: white;
+    -webkit-box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+    box-shadow: 1px 5px 11px -2px rgba(0,0,0,0.75);
+}
+ul.drop_menu > li {
+    display: block;
+}
+ul.drop_menu > li > a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.drop_menu > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.drop_menu {
+    display: block;
+}
+
+.menu i {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #424c43;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    color: #424c43;
+}
+
+.content p {
+    padding: 0 25px 15px 15px;
+    line-height: 22px;
+}
+
+.content h3 {
+    padding: 5px 0 5px 0;
+}
+
+.info {
+    float: left;
+    background-color: #edeef0;
+    width: 205px;
+    border-right: 1px solid #c7cacf;
+    height: 580px;
+}
+
+.news {
+    float: right;
+    background-color: #edeef0;
+    width: 205px;
+    border-left: 1px solid #c7cacf;
+    height: 580px;
+}
+
+.article {
+    padding: 1px 20px 20px 20px;
+    float: left;
+}
+
+.content:after {
+    content: ' ';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+footer {
+    padding-top: 8px;
+}
+
+footer p {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
